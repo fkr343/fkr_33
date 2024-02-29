@@ -6,6 +6,11 @@
 padding: 0;
 margin: 0;
 }
+body{
+font-family: "poppins", Sans-Serif;
+font-weight: 400;
+font-style: normal;
+}
 #navbar{
 display: flex;
 justify-content: center;
