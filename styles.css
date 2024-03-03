@@ -84,13 +84,13 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-font-size: 15px;
-width: 410px;
+font-size: 10px;
+width: 300px;
 margin-top: -300px;
 }
 main #about #about-image img{
-height: 300px;
-width: 400px;
+height: 200px;
+width: 300px;
 
 }
 
