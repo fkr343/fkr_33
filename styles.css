@@ -63,7 +63,7 @@ border-radius: 40px;
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 20em;
+gap: 10em;
 }
 main #about #about-image #abouts-image{
 height: 500px;
@@ -73,10 +73,54 @@ width: 700px;
 width: 700px;
 font-size: 30px;
 }
-@media (max-width:1200px){
+@media(max-width:1200px){
+nav h1{
+color: yellow;
+}
+main #about{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 4em;
+}
+#about .about-text{
+width: 500px;
+font-size: 20px;
+}
+main #about #about-image #abouts-image{
+height: 400px;
+width: 500px;
+}
+}
+@media (max-width:992px){
 nav h1{
 color: blue;
 }
+main #about{
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+}
+main .Container-hero #logo{
+height: 100px;
+width: 100px;
+}
+main #about .about-text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+width: 500px;
+margin-top: 1px;
+}
+main #about #about-image #abouts-image{
+height: 300px;
+width: 400px;
+}
+
+
 }
 @media(max-width:768px){
 nav h1{
@@ -109,13 +153,14 @@ justify-content: center;
 align-items: center;
 font-size: 15px;
 width: 500px;
-margin-top: -300px;
+margin-top: 1px;
 }
 main #about #about-image #abouts-image{
 height: 200px;
 width: 300px;
 }
 }
+
 @media(max-width:576px){
 nav{
 display: flex;
@@ -132,6 +177,7 @@ display: flex;
 flex-direction: column-reverse;
 justify-content: center;
 align-items: center;
+height: 400px;
 }
 main .Container-hero #logo{
 height: 100px;
@@ -144,7 +190,7 @@ justify-content: center;
 align-items: center;
 font-size: 15px;
 width: 300px;
-margin-top: -300px;
+margin-top: 1px;
 }
 main #about #about-image #abouts-image{
 height: 200px;
