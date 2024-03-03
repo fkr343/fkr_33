@@ -40,6 +40,10 @@ align-items: center;
 height: 640px;
 width: 100%;
 }
+main .Container-hero #logo{
+height: 200px;
+width: 200px;
+}
 #title{
 margin-top: -20px;
 margin-bottom: 6px;
@@ -60,6 +64,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 20em;
+}
+main #about #about-image #abouts-image{
+height: 500px;
+width: 700px;
 }
 .about-text{
 width: 700px;
@@ -103,7 +111,7 @@ font-size: 15px;
 width: 500px;
 margin-top: -300px;
 }
-main #about #about-image img{
+main #about #about-image #abouts-image{
 height: 200px;
 width: 300px;
 }
@@ -138,7 +146,7 @@ font-size: 15px;
 width: 300px;
 margin-top: -300px;
 }
-main #about #about-image img{
+main #about #about-image #abouts-image{
 height: 200px;
 width: 300px;
 }
